@@ -17,9 +17,7 @@ export default class Timer {
         });
         this.pause = new CustomEvent('pause');
         this.tick = new CustomEvent('tick');
-
-        
-      
+  
     }
 
     startTimer = () => {
