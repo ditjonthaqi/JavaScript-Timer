@@ -45,5 +45,4 @@ export default class Timer {
         clearInterval(this.interval);
 
     }
-
 }
